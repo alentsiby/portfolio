@@ -293,9 +293,9 @@ function initTerminal() {
     if (!el) return;
     const commands = [
         'echo "Let\'s build something."',
-        'ssh connect@future',
-        'ping innovation.local',
-        'cat skills.log | grep expert',
+        'ssh connect@ecse-lab',
+        'ping smart-home.local',
+        'cat skills.log | grep IoT',
     ];
     let cmdIndex = 0;
     let charIndex = 0;
